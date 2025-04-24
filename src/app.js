@@ -9,6 +9,7 @@ app.use(express.urlencoded({extended:false}));
 
 app.use(require("./routes/administradores"));
 app.use(require("./routes/colaboradores"));
+app.use(require("./routes/incentivos"));
 
 
 module.exports = app;
